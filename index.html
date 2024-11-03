@@ -3,13 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Odin Recipes</title>
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes/carrot_cake.html">Carrot Cake</a></li>
-        <li><a href="recipes/microwave_chocolate_mug_cake.html">Microwave Chocolate Mug Cake</a></li>
-        <li><a href="recipes/raspberry_cheesecake.html">Raspberry Cheesecake</a></li>      
+    <nav class="navmenu">
+      <header>
+        <h1>Odin Recipes</h1>
+      </header>
+      <ul class="nav">
+        <li class="nav">
+          <a class="active" href="/repos/odin-recipes/index.html"
+            >Main <br />
+            Page</a
+          >
+        </li>
+        <li class="nav">
+          <a href="/repos/odin-recipes/recipes/carrot_cake.html"
+            >Carrot <br />Cake</a
+          >
+        </li>
+        <li class="nav">
+          <a
+            href="/repos/odin-recipes/recipes/microwave_chocolate_mug_cake.html"
+            >Microwave Chocolate <br />Mug Cake</a
+          >
+        </li>
+        <li class="nav">
+          <a href="/repos/odin-recipes/recipes/raspberry_cheesecake.html"
+            >Raspberry <br />Cheesecake</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="main">
+        <img
+          src="https://www.allrecipes.com/thmb/Tln1C_mN7uryAOAFk0hwWRYRicM=/1241x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Microwave-Chocolate-Mug-Cake-2f3f3a7656994f178da4abe666386d88.jpg"
+        />
+        <p>From our bakery to yours!</p>
+      </div>
+    </div>
   </body>
 </html>
