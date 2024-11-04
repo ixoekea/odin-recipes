@@ -85,6 +85,7 @@ img {
   width: 300px;
   border-radius: 18px;
   transition: opacity 0.3s;
+  z-index: -1;
 }
 img:hover {
   opacity: 0.8;
